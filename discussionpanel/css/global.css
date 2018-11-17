@@ -1,0 +1,131 @@
+body{
+	 background: linear-gradient(to top left, #33ccff 0%, #66ff99 105%);;
+}
+.footer {
+    position: fixed;
+    background: black;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding:1%;
+}
+.form-signin
+{
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+
+
+
+}
+.form-signin .form-signin-heading, .form-signin .checkbox
+{
+    margin-bottom: 10px;
+}
+.form-signin .checkbox
+{
+    font-weight: normal;
+}
+.form-signin .form-control
+{
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.form-signin .form-control:focus
+{
+    z-index: 2;
+}
+.form-signin input[type="text"]
+{
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"]
+{
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.my-quest
+{
+                position: fixed;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                background: rgba(0,0,0,0.8);
+                z-index: 99999;
+                opacity: 0;
+                -webkit-transition: opacity 100ms ease-in;
+                -moz-transition: opacity 100ms ease-in;
+                transition: opacity 100ms ease-in;
+                pointer-events: none;
+            }
+            #quest > div
+            {
+                width: 40%;
+                height: 60%;
+                margin: 5% auto;
+                background: #fff;
+                padding: 10px;
+            }
+           
+            #quest:target
+            {
+                opacity: 1;
+                pointer-events: auto;
+            }
+
+.card-box {
+            background: #FAFAFA;
+            position: relative;
+            padding: 5px 5px 5px;
+            margin-bottom: 20px;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+            position: relative;
+            cursor: pointer;
+        }
+
+
+        .card-box:after {
+            display: block;
+            background: #2196F3;
+            border-top: 2px solid #2196F3;
+            content: '';
+            width: 100%;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+        }
+
+        .card-title h2 {
+            margin: 0;
+            padding-top: 5%;
+            color: #2196F3;
+            font-family: 'Oswald', sans-serif;
+            text-transform: uppercase;
+            font-size: 24px;
+            line-height: 1;
+            margin-bottom: 15px;
+        }
+
+        .card-title p {
+            margin: 0;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+
+        
